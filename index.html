@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quizContent">
+        <h1>Quiz App</h1>
+
+      <div class="start">
+        <label for="question-count" id="labelQuestion">Number of Questions:</label>
+        <input type="number" placeholder="Enter number of questions" min="1" id="question-count" value="">
+        <button id="start-quiz">Start Quiz</button>
+      </div>
+
+        <div id="quiz">
+            <p id="question-text"></p>
+        </div>
+        <div class="choices">
+        
+        </div>
+        <p id="score"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
